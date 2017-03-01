@@ -2,8 +2,8 @@ const { connect } = require('react-redux')
 const { bindActionCreators } = require('redux')
 const { App } = require('../../components/app')
 const actionCreators = require('../actions')
-const { addTask } = require('../functions/add-task')
-const { saveTask } = require('../functions/save-task')
+const { addTask } = require('../../functions/add-task')
+const { saveTask } = require('../../functions/save-task')
 
 const mapStateToProps = (state) => state
 
